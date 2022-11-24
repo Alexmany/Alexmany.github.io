@@ -1,0 +1,36 @@
+:root{
+  --oknaColorBg:#131314;
+  --oknaColorMain:#ffd541;
+}
+
+*{
+  background-color: var(--oknaColorBg);
+  margin: 0;
+  padding: 0;
+  font-family: 'Alumni Sans', sans-serif;
+}
+
+.logo{
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.bio{
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.Text{
+  color: white;
+  text-align: center;
+}
+
+.SmallText{
+  color: white;
+  text-align: center;
+  inline-size: 50%;  
+}
